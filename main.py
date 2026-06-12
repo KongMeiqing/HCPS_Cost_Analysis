@@ -6,6 +6,8 @@ import streamlit as st
 print("=== DEBUG: Script started ===", flush=True)
 print(f"Python version: {sys.version}", flush=True)
 st.write("=== DEBUG: If you see this, Streamlit is working ===")
+
+
 import parameters as p
 import calculate as calc
 import plot as pl
